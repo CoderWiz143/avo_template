@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+         <link rel="icon" href="../favicon.ico" type="image/x-icon">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../styles/styles.css" />
+        <script src="../script.js"></script>
+        <style>
+            .project-section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 50px 0;
+                background: #fff;
+            }
+            .project-wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                max-width: 1200px;
+                width: 100%;
+            }
+            .project-image {
+                flex: 1;
+                max-width: 50%;
+                overflow: hidden;
+            }
+            .project-image img {
+                width: 100%;
+                height: auto;
+            }
+            .project-content {
+                flex: 1;
+                max-width: 50%;
+                padding: 20px;
+            }
+            .project-content h2 {
+                margin-top: 0;
+            }
+            .project-content p {
+                color: #555;
+            }
+            .project-content a {
+                display: inline-block;
+                margin-top: 10px;
+                text-decoration: none;
+                color: #1a1a1a;
+                border: 1px solid #1a1a1a;
+                padding: 10px 20px;
+                transition: all 0.3s ease;
+            }
+            .project-content a:hover {
+                background: #1a1a1a;
+                color: #fff;
+            }
+            @media (max-width: 768px) {
+                .project-wrapper {
+                    flex-direction: column;
+                }
+                .project-image,
+                .project-content {
+                    max-width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3>a<span id="red-color">v</span>o</h3>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    Menu
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="/public/about.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/public/work.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/public/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/public/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section1">
+            <div class="container hero-content">
+                <div class="left-content">
+                    <h2 class="col-md-5">WE CREATE MODERN AND & MINIMAL WEBSITES</h2>
+                    <p class="col-md-5">
+                        A small river Dudlen flows near by and provides them with necessary regililia.
+                    </p>
+                    <button class="btn btn-primary">Explore Projects</button>
+                </div>
+            </div>
+        </section>
+        <section class="section2"></section>
+
+        <section class="project-x">
+            <div class="project-section">
+                <div class="project-wrapper">
+                    <div class="project-image">
+                        <img src="../images/work.jpg" alt="Geometric Building" />
+                    </div>
+                    <div class="project-content">
+                        <h5>Exterior {12/03/2003}</h5>
+                        <h2>Geometric Building</h2>
+
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove.
+                        </p>
+                        <div class="author-info">
+                            <img src="../images/user.png" alt="Author Image" />
+                            <div>
+                                <p>Jamie Jonson</p>
+                                <p>avo.com</p>
+                            </div>
+                        </div>
+                        <a href="#portfolio">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <div class="project-wrapper">
+                    <div class="project-content">
+                        <h5>Exterior {12/03/2003}</h5>
+                        <h2>Modern Art Museum</h2>
+
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove.
+                        </p>
+                        <div class="author-info">
+                            <img src="../images/user.png" alt="Author Image" />
+                            <div>
+                                <p>Jamie Jonson</p>
+                                <p>avo.com</p>
+                            </div>
+                        </div>
+                        <a href="#portfolio">View Portfolio</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="../images/work.jpg" alt="Modern Art Museum" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <div class="project-wrapper">
+                    <div class="project-image">
+                        <img src="../images/work.jpg" alt="Geometric Building" />
+                    </div>
+                    <div class="project-content">
+                        <h5>Exterior {12/03/2003}</h5>
+                        <h2>Geometric Building</h2>
+
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove.
+                        </p>
+                        <div class="author-info">
+                            <img src="../images/user.png" alt="Author Image" />
+                            <div>
+                                <p>Jamie Jonson</p>
+                                <p>avo.com</p>
+                            </div>
+                        </div>
+                        <a href="#portfolio">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <div class="project-wrapper">
+                    <div class="project-content">
+                        <h5>Exterior {12/03/2003}</h5>
+                        <h2>Modern Art Museum</h2>
+
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove.
+                        </p>
+                        <div class="author-info">
+                            <img src="../images/user.png" alt="Author Image" />
+                            <div>
+                                <p>Jamie Jonson</p>
+                                <p>avo.com</p>
+                            </div>
+                        </div>
+                        <a href="#portfolio">View Portfolio</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="../images/work.jpg" alt="Modern Art Museum" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&lt;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&gt;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <footer class="footer">
+            <div class="skewed-footer"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h3>avo</h3>
+                        <p>
+                            Far far away, <br />
+                            behind the word mountains,<br />
+                            far from the countries.
+                        </p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Meet the team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Have a Questions?</h4>
+                        <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                        <p>+2 392 3929 210</p>
+                        <p>info@yourdomain.com</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center copyright">
+                        <p>
+                            Copyright ©2024 All rights reserved | This template is made with
+                            <i class="fas fa-heart"></i> by
+                            <span id="red-color" style="cursor: pointer">Sher Shah</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

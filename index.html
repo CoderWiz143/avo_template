@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <script src="./script.js"></script>
+        <style>
+         .project-section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 50px 0;
+                background: #fff;
+            }
+            .project-wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                max-width: 1200px;
+                width: 100%;
+            }
+            .project-image {
+                flex: 1;
+                max-width: 50%;
+                overflow: hidden;
+            }
+            .project-image img {
+                width: 100%;
+                height: auto;
+            }
+            .project-content {
+                flex: 1;
+                max-width: 50%;
+                padding: 20px;
+            }
+            .project-content h2 {
+                margin-top: 0;
+            }
+            .project-content p {
+                color: #555;
+            }
+            .project-content a {
+                display: inline-block;
+                margin-top: 10px;
+                text-decoration: none;
+                color: #1a1a1a;
+                border: 1px solid #1a1a1a;
+                padding: 10px 20px;
+                transition: all 0.3s ease;
+            }
+            .project-content a:hover {
+                background: #1a1a1a;
+                color: #fff;
+            }
+            @media (max-width: 768px) {
+                .project-wrapper {
+                    flex-direction: column;
+                }
+                .project-image,
+                .project-content {
+                    max-width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3>a<span id="red-color">v</span>o</h3>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    Menu
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./public/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./public/work.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./public/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./public/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section1">
+            <div class="container hero-content">
+                <div class="left-content">
+                    <h2 class="col-md-8">WE CREATE MODERN AND & MINIMAL WEBSITES</h2>
+                    <p class="col-md-8">
+                        A small river Dudlen flows nearby and provides them with necessary regililia.
+                    </p>
+                    <button class="btn btn-primary">Explore Projects</button>
+                </div>
+                <div class="center-content">
+                    <button class="play-button">&#9658;</button>
+                </div>
+                <div class="right-content">
+                    <div class="text-block active">
+                        <h1>21|</h1>
+                        <p>Years of Experienced</p>
+                    </div>
+                    <div class="text-block">
+                        <h1>400|</h1>
+                        <p>More than successful projects</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2"></section>
+
+        <section id="about">
+            <div class="container about-section">
+                <h1>ABOUT</h1>
+                <div class="box-container">
+                    <div class="about-box">
+                        <img src="/assets/images/web-dev.png" alt="Image 1" />
+                        <h2>Web Development</h2>
+                    </div>
+
+                    <div class="about-box">
+                        <img src="/assets/images/web-dev.png" alt="Image 2" />
+                        <h2>Web Development</h2>
+                    </div>
+
+                    <div class="about-box">
+                        <img src="/assets/images/web-dev.png" alt="Image 3" />
+                        <h2>Web Development</h2>
+                    </div>
+
+                    <div class="about-box">
+                        <img src="/assets/images/web-dev.png" alt="Image 4" />
+                        <h2>Web Development</h2>
+                    </div>
+
+                    <div class="about-box">
+                        <img src="/assets/images/web-dev.png" alt="Image 5" />
+                        <h2>Web Development</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="intro">
+            <div class="container intro-section">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 text-left">
+                        <p>
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean. A small river named Duden flows by their place and supplies it with the necessary
+                            regelialia.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/welcome.png" alt="Office Image" class="img-fluid" />
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                            Semantics.
+                        </p>
+                        <a href="#" class="btn btn-primary" id="btn1">View all projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container services-section">
+                <div class="row">
+                    <div class="col-md-4 service-box">
+                        <div class="service-number">01</div>
+                        <h3>Search Engine Optimization</h3>
+                        <p>Far far away, behind the word mountains</p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                        <div class="service-number">02</div>
+                        <h3>Search Engine Optimization</h3>
+                        <p>Far far away, behind the word mountains</p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                        <div class="service-number">03</div>
+                        <h3>Search Engine Optimization</h3>
+                        <p>Far far away, behind the word mountains</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-x">
+            <div class="project-section">
+                <div class="project-wrapper">
+                    <div class="project-image">
+                        <img src="/assets/images/work.jpg" alt="Geometric Building" />
+                    </div>
+                    <div class="project-content">
+                        <h5>Exterior {12/03/2003}</h5>
+                        <h2>Geometric Building</h2>
+
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove.
+                        </p>
+                        <div class="author-info">
+                            <img src="/assets/images/user.png" alt="Author Image" />
+                            <div>
+                                <p>Jamie Jonson</p>
+                                <p>avo.com</p>
+                            </div>
+                        </div>
+                        <a href="#portfolio">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <div class="project-wrapper">
+                    <div class="project-content">
+                        <h5>Exterior {12/03/2003}</h5>
+                        <h2>Modern Art Museum</h2>
+
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove.
+                        </p>
+                        <div class="author-info">
+                            <img src="/assets/images/user.png" alt="Author Image" />
+                            <div>
+                                <p>Jamie Jonson</p>
+                                <p>avo.com</p>
+                            </div>
+                        </div>
+                        <a href="#portfolio">View Portfolio</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="/assets/images/work.jpg" alt="Modern Art Museum" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <div class="project-wrapper">
+                    <div class="project-image">
+                        <img src="/assets/images/work.jpg" alt="Geometric Building" />
+                    </div>
+                    <div class="project-content">
+                        <h5>Exterior {12/03/2003}</h5>
+                        <h2>Geometric Building</h2>
+
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove.
+                        </p>
+                        <div class="author-info">
+                            <img src="/assets/images/user.png" alt="Author Image" />
+                            <div>
+                                <p>Jamie Jonson</p>
+                                <p>avo.com</p>
+                            </div>
+                        </div>
+                        <a href="#portfolio">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <div class="project-wrapper">
+                    <div class="project-content">
+                        <h5>Exterior {12/03/2003}</h5>
+                        <h2>Modern Art Museum</h2>
+
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove.
+                        </p>
+                        <div class="author-info">
+                            <img src="/assets/images/user.png" alt="Author Image" />
+                            <div>
+                                <p>Jamie Jonson</p>
+                                <p>avo.com</p>
+                            </div>
+                        </div>
+                        <a href="#portfolio">View Portfolio</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="/assets/images/work.jpg" alt="Modern Art Museum" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>Clients Says About Us?</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-group">
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 1" />
+                            <div class="name-role">
+                                <div class="name">Roger Scott</div>
+                                <div class="role">Marketing Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 2" />
+                            <div class="name-role">
+                                <div class="name">Roger Scott</div>
+                                <div class="role">Marketing Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 3" />
+                            <div class="name-role">
+                                <div class="name">Roger Scott</div>
+                                <div class="role">Marketing Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-group">
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 4" />
+                            <div class="name-role">
+                                <div class="name">Jane Doe</div>
+                                <div class="role">CEO</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 5" />
+                            <div class="name-role">
+                                <div class="name">John Smith</div>
+                                <div class="role">Developer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 6" />
+                            <div class="name-role">
+                                <div class="name">Emily Johnson</div>
+                                <div class="role">Designer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-group">
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 7" />
+                            <div class="name-role">
+                                <div class="name">Michael Brown</div>
+                                <div class="role">Product Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 8" />
+                            <div class="name-role">
+                                <div class="name">Sophia Green</div>
+                                <div class="role">Sales Director</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 9" />
+                            <div class="name-role">
+                                <div class="name">Chris Blue</div>
+                                <div class="role">UX Designer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-group">
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 10" />
+                            <div class="name-role">
+                                <div class="name">Anna White</div>
+                                <div class="role">HR Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 11" />
+                            <div class="name-role">
+                                <div class="name">David Gray</div>
+                                <div class="role">CTO</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                        <div class="profile">
+                            <img src="/assets/images/client.png" alt="Client 12" />
+                            <div class="name-role">
+                                <div class="name">Emma Black</div>
+                                <div class="role">COO</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dots">
+                <div class="dot active" onclick="showTestimonial(0)"></div>
+                <div class="dot" onclick="showTestimonial(1)"></div>
+                <div class="dot" onclick="showTestimonial(2)"></div>
+                <div class="dot" onclick="showTestimonial(3)"></div>
+            </div>
+        </section>
+
+        <section class="get-started">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="col-md-6">
+                            <span id="red-color" style="line-height: 1.8">Get Startd</span>
+                            <h2>Fill in the brief and get the project estimate</h2>
+                            <p>
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <a href="#" class="btn btn-primary" id="btn1">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-blog">
+            <h2 class="text-center">RECENT BLOG</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="blog-card">
+                            <img src="/assets/images/blog.jpg" alt="Blog Image" />
+                            <h4>Amplify your blockchain team</h4>
+                            <p class="blog-meta">JUNE 01, 2020 <span>ADMIN</span> <span>3</span></p>
+                            <p class="blog-description">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="blog-card">
+                            <img src="/assets/images/blog.jpg" alt="Blog Image" />
+                            <h4>Amplify your blockchain team</h4>
+                            <p class="blog-meta">JUNE 01, 2020 <span>ADMIN</span> <span>3</span></p>
+                            <p class="blog-description">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="blog-card">
+                            <img src="/assets/images/blog.jpg" alt="Blog Image" />
+                            <h4>Amplify your blockchain team</h4>
+                            <p class="blog-meta">JUNE 01, 2020 <span>ADMIN</span> <span>3</span></p>
+                            <p class="blog-description">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="blog-card">
+                            <img src="/assets/images/blog.jpg" alt="Blog Image" />
+                            <h4>Amplify your blockchain team</h4>
+                            <p class="blog-meta">JUNE 01, 2020 <span>ADMIN</span> <span>3</span></p>
+                            <p class="blog-description">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="skewed-footer"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h3>avo</h3>
+                        <p>
+                            Far far away, <br />
+                            behind the word mountains,<br />
+                            far from the countries.
+                        </p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Meet the team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Have a Questions?</h4>
+                        <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                        <p>+2 392 3929 210</p>
+                        <p>info@yourdomain.com</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center copyright">
+                        <p>
+                            Copyright ©2024 All rights reserved | This template is made with
+                            <i class="fas fa-heart"></i> by
+                            <span id="red-color" style="cursor: pointer">Sher Shah</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+        <script>
+            const rightContent = document.querySelector(".right-content");
+            let toggle = true;
+
+            setInterval(() => {
+                rightContent.classList.add("fade-out");
+                setTimeout(() => {
+                    if (toggle) {
+                        rightContent.querySelector("h1").textContent = "400|";
+                        rightContent.querySelector("p").textContent = "More than successful projects";
+                    } else {
+                        rightContent.querySelector("h1").textContent = "21|";
+                        rightContent.querySelector("p").textContent = "Years of Experienced";
+                    }
+                    toggle = !toggle;
+                    rightContent.classList.remove("fade-out");
+                    rightContent.classList.add("fade-in");
+                }, 1000);
+            }, 3000);
+        </script>
+    </body>
+</html>
